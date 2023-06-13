@@ -7,4 +7,5 @@ src-git x https://github.com/x-wrt/com.x-wrt.git;22.10_b202304222337
 #src-git-full targets https://github.com/openwrt/targets.git
 #src-git-full oldpackages http://git.openwrt.org/packages.git
 #src-link custom /usr/src/openwrt/custom-feed
-src-git kiddin9 https://github.com/kiddin9/openwrt-packages
+src-git kenzo https://github.com/kenzok8/openwrt-packages
+src-git small https://github.com/kenzok8/small
