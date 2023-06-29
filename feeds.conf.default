@@ -10,6 +10,6 @@ src-git x https://github.com/x-wrt/com.x-wrt.git;22.10_b202304222337
 #src-git kenzo https://github.com/kenzok8/openwrt-packages
 src-git small https://github.com/kenzok8/small
 #src-git small8 https://github.com/kenzok8/small-package
-#src-git shidahuilang https://github.com/shidahuilang/openwrt-package.git;wrt
+src-git shidahuilang https://github.com/shidahuilang/openwrt-package.git;wrt
 #src-git 281677160 https://github.com/281677160/openwrt-package.git;Xwrt
-src-git NueXini_Packages https://github.com/NueXini/NueXini_Packages
+#src-git NueXini_Packages https://github.com/NueXini/NueXini_Packages
