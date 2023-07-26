@@ -20,7 +20,7 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/openwrt/openwrt-22.03
+  REPO_URL:  https://github.com/zow2023/openwrt
   REPO_BRANCH: v22.03.5
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
