@@ -18,4 +18,5 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 #git clone https://github.com/jerrykuku/lua-maxminddb.git
 #git clone https://github.com/jerrykuku/luci-app-vssr.git
-rm -rf tmp && ./scripts/feeds install -f -p helloworld shadowsocksr-libev
+cd ~/lede/package/feeds/helloworld
+ln -s ../../../feeds/helloworld/shadowsocksr-libev/ shadowsocksr-libev
