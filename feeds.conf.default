@@ -8,7 +8,7 @@ src-git telephony https://github.com/openwrt/telephony.git
 #src-link custom /usr/src/openwrt/custom-feed
 #src-git kenzo https://github.com/kenzok8/openwrt-packages
 #src-git small https://github.com/kenzok8/small
-#src-git helloworld https://github.com/fw876/helloworld
-#src-git passwall https://github.com/xiaorouji/openwrt-passwall
+src-git helloworld https://github.com/fw876/helloworld
+src-git passwall https://github.com/xiaorouji/openwrt-passwall
 src-git packages https://github.com/immortalwrt/packages.git;openwrt-18.06
 src-git luci https://github.com/immortalwrt/luci.git;openwrt-18.06-k5.4
