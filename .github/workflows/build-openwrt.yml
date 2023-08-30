@@ -20,8 +20,8 @@ on:
         default: 'false'
 
 env:
-  REPO_URL:   https://github.com/zow2023/imoutowrt
-  REPO_BRANCH: 1806-k54-ipq40xx-hnat
+  REPO_URL:   https://github.com/zow2023/jdc-lede
+  REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
   DIY_P1_SH: diy-part1.sh
