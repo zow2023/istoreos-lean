@@ -1,11 +1,8 @@
-src-git-full packages https://github.com/x-wrt/packages.git;22.03
-src-git-full luci https://github.com/x-wrt/luci.git;22.03
-src-git-full routing https://github.com/x-wrt/routing.git;22.03
-src-git-full telephony https://github.com/x-wrt/telephony.git;22.03
-src-git-full x https://github.com/x-wrt/com.x-wrt.git;22.03
-#src-git-full video https://github.com/openwrt/video.git
-#src-git-full targets https://github.com/openwrt/targets.git
-#src-git-full oldpackages http://git.openwrt.org/packages.git
-#src-link custom /usr/src/openwrt/custom-feed
+src-git packages https://github.com/Lienol/openwrt-packages.git;22.03
+src-git luci https://github.com/Lienol/openwrt-luci.git;22.03
+src-git routing https://git.openwrt.org/feed/routing.git;openwrt-22.03
+src-git telephony https://git.openwrt.org/feed/telephony.git;openwrt-22.03
+src-git lienol https://github.com/Lienol/openwrt-package.git;main
+src-git other https://github.com/Lienol/openwrt-package.git;other
 src-git kenzo https://github.com/kenzok8/openwrt-packages
 src-git small https://github.com/kenzok8/small
