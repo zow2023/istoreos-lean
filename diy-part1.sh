@@ -19,7 +19,7 @@
 #git clone https://github.com/jerrykuku/lua-maxminddb.git
 #git clone https://github.com/jerrykuku/luci-app-vssr.git
 #rm -rf tmp && ./scripts/feeds install -f -p helloworld shadowsocksr-libev
-#git clone https://github.com/kiddin9/luci-app-dnsfilter package/luic-app-dnsfilter
+git clone https://github.com/kiddin9/luci-app-dnsfilter package/luic-app-dnsfilter
 #git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
 #git clone https://github.com/pymumu/luci-app-smartdns package/luci-app-smartdns
 #git clone https://github.com/xiaorouji/openwrt-passwall package/luci-smartdns-dev
