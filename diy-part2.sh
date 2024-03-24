@@ -11,7 +11,7 @@
 #
 #./scripts/feeds update packages 
 
-rm -rf feeds/packages/net/xray-core
+#rm -rf feeds/packages/net/xray-core
 #rm -rf feeds/packages/lang/golang
 #git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
 # Modify default IP
