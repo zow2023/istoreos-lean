@@ -19,6 +19,7 @@ git clone https://github.com/xiaorouji/openwrt-passwall.git -b  luci-smartdns-de
 rm -rf feeds/packages/lang/golang
 git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
 
+rm -rf feeds/luci/applications/luci-app-mosdns
 find ./ | grep Makefile | grep v2ray-geodata | xargs rm -f
 find ./ | grep Makefile | grep mosdns | xargs rm -f
 git clone https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
