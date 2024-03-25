@@ -10,8 +10,9 @@
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 #
 #./scripts/feeds update packages 
+
 sed -i 's#GO_PKG_TARGET_VARS.*# #g' feeds/packages/utils/v2dat/Makefile
-#rm -rf feeds/packages/net/xray-core
+
 rm -rf feeds/packages/lang/golang
 git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
 # Modify default IP
