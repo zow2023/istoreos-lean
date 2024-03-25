@@ -14,7 +14,7 @@ git clone https://github.com/kiddin9/luci-app-dnsfilter package/luic-app-dnsfilt
 git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/passwall/packages
 git clone https://github.com/xiaorouji/openwrt-passwall.git -b  luci-smartdns-dev package/passwall/luci
 
-#sed -i 's#GO_PKG_TARGET_VARS.*# #g' feeds/packages/utils/v2dat/Makefile
+sed -i 's#GO_PKG_TARGET_VARS.*# #g' feeds/packages/utils/v2dat/Makefile
 
 rm -rf feeds/luci/applications/luci-app-mosdns
 rm -rf feeds/packages/net/mosdns
