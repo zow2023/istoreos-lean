@@ -17,10 +17,13 @@ git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall/luc
 
 git clone https://github.com/fw876/helloworld.git -b master package/helloworld
 
-#git clone https://github.com/sirpdboy/sirpdboy-package package/sirpdboy-package
+git clone https://github.com/sirpdboy/sirpdboy-package package/sirpdboy-package
 git clone https://github.com/sirpdboy/luci-app-parentcontrol package/luci-app-parentcontrol
 
 #git clone https://github.com/kingyond/luci-app-accesscontrol-plus package/luci-app-accesscontrol-plus
+
+git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
+git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-theme-argon-config
 
 #rm -rf feeds/packages/net/{alist,adguardhome}
 
