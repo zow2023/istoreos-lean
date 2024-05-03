@@ -10,6 +10,7 @@
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 #
 #./scripts/feeds update packages 
+sed -i 's/ +libopenssl-legacy//g' feeds/helloworld/shadowsocksr-libev/Makefile
 
 git clone https://github.com/kiddin9/luci-app-dnsfilter package/luic-app-dnsfilter
 #git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/passwall/packages
