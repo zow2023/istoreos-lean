@@ -11,7 +11,6 @@
 #
 #./scripts/feeds update packages 
 
-rm -rf feeds/packages/net/xray-core
 git clone https://github.com/kiddin9/luci-app-dnsfilter package/luic-app-dnsfilter
 git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/passwall/packages
 #git clone https://github.com/xiaorouji/openwrt-passwall.git -b  luci-smartdns-dev package/passwall/luci
@@ -28,6 +27,7 @@ git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-a
 git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-theme-argon-config
 
 #rm -rf feeds/packages/net/{alist,adguardhome}
+rm -rf feeds/packages/net/xray-core
 
 #sed -i 's#GO_PKG_TARGET_VARS.*# #g' feeds/packages/utils/v2dat/Makefile
 
