@@ -26,8 +26,15 @@ git clone https://github.com/sirpdboy/luci-app-parentcontrol package/luci-app-pa
 git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
 git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-theme-argon-config
 
+# 移除 openwrt feeds 自带的核心包
+rm -rf feeds/packages/net/{xray-core,v2ray-core,v2ray-geodata,sing-box}
+git clone https://github.com/sbwml/openwrt_helloworld package/helloworld
+
+# 更新 golang 1.22 版本
+#rm -rf feeds/packages/lang/golang
+#git clone https://github.com/sbwml/packages_lang_golang -b 22.x feeds/packages/lang/golang
 #rm -rf feeds/packages/net/{alist,adguardhome}
-rm -rf feeds/packages/net/xray-core
+#rm -rf feeds/packages/net/xray-core
 
 #sed -i 's#GO_PKG_TARGET_VARS.*# #g' feeds/packages/utils/v2dat/Makefile
 
