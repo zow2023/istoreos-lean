@@ -10,7 +10,6 @@
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 #
 #./scripts/feeds update packages 
-sed -i 's/ +libopenssl-legacy//g' feeds/helloworld/shadowsocksr-libev/Makefile
 
 git clone https://github.com/kiddin9/luci-app-dnsfilter package/luic-app-dnsfilter
 #git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/passwall/packages
@@ -27,9 +26,10 @@ git clone https://github.com/sirpdboy/luci-app-parentcontrol package/luci-app-pa
 git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
 git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-theme-argon-config
 
+sed -i 's/ +libopenssl-legacy//g' feeds/helloworld/shadowsocksr-libev/Makefile
 # 移除 openwrt feeds 自带的核心包
 rm -rf feeds/packages/net/{xray-core,v2ray-core,v2ray-geodata,sing-box}
-git clone https://github.com/sbwml/openwrt_helloworld package/helloworld
+git clone https://github.com/zow2023/openwrt_helloworld package/helloworld
 
 # 更新 golang 1.22 版本
 #rm -rf feeds/packages/lang/golang
