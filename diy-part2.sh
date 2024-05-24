@@ -28,8 +28,8 @@ git clone https://github.com/kingyond/luci-app-accesscontrol-plus package/luci-a
 
 #sed -i 's/ +libopenssl-legacy//g' feeds/helloworld/shadowsocksr-libev/Makefile
 # 移除 openwrt feeds 自带的核心包
-rm -rf feeds/packages/net/{xray-core,v2ray-core,v2ray-geodata,sing-box}
-git clone https://github.com/zow2023/openwrt_helloworld package/helloworld
+#rm -rf feeds/packages/net/{xray-core,v2ray-core,v2ray-geodata,sing-box}
+#git clone https://github.com/zow2023/openwrt_helloworld package/helloworld
 
 # 更新 golang 1.22 版本
 #rm -rf feeds/packages/lang/golang
