@@ -16,7 +16,7 @@ git clone https://github.com/kiddin9/luci-app-dnsfilter package/luic-app-dnsfilt
 #git clone https://github.com/xiaorouji/openwrt-passwall.git -b  luci-smartdns-dev package/passwall/luci
 #git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall/luci
 
-rm -rf feeds/packages/net/adguardhome
+#rm -rf feeds/packages/net/adguardhome
 
 #git clone https://github.com/fw876/helloworld.git -b master package/helloworld
 
