@@ -23,7 +23,7 @@
 #src-git luci https://github.com/Lienol/openwrt-luci.git;23.05
 #src-git routing https://git.openwrt.org/feed/routing.git;openwrt-23.05
 #src-git telephony https://git.openwrt.org/feed/telephony.git;openwrt-23.05
-#src-git src-git other https://github.com/Lienol/openwrt-package.git;other
+src-git src-git other https://github.com/Lienol/openwrt-package.git;other
 
 
 #src-git-full packages https://github.com/zow2023/imm21packages
