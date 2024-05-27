@@ -20,7 +20,7 @@ on:
         default: 'false'
 
 env:
-  REPO_URL:   https://github.com/istoreos/istoreos
+  REPO_URL:   https://github.com/zow2023/istoreos
   #REPO_URL:  https://github.com/coolsnowwolf/lede
   #REPO_BRANCH: master
   REPO_BRANCH: istoreos-22.03
