@@ -11,7 +11,7 @@
 #
 #./scripts/feeds update packages 
 
-git clone https://github.com/kiddin9/luci-app-dnsfilter package/luic-app-dnsfilter
+#git clone https://github.com/kiddin9/luci-app-dnsfilter package/luic-app-dnsfilter
 #git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/passwall/packages
 #git clone https://github.com/xiaorouji/openwrt-passwall.git -b  luci-smartdns-dev package/passwall/luci
 #git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall/luci
