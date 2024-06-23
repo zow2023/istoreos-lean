@@ -16,7 +16,7 @@
 #git clone https://github.com/xiaorouji/openwrt-passwall.git -b  luci-smartdns-dev package/passwall/luci
 #git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall/luci
 
-rm -rf feeds/packages/net/adguardhome
+#rm -rf feeds/packages/net/adguardhome
 
 #git clone https://github.com/fw876/helloworld.git -b master package/helloworld
 
@@ -41,8 +41,8 @@ git clone https://github.com/sirpdboy/luci-app-parentcontrol package/luci-app-pa
 
 #sed -i 's#GO_PKG_TARGET_VARS.*# #g' feeds/packages/utils/v2dat/Makefile
 
-#rm -rf feeds/packages/lang/golang
-#git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
+rm -rf feeds/packages/lang/golang
+git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
 
 #rm -rf feeds/luci/applications/luci-app-mosdns
 #find ./ | grep Makefile | grep v2ray-geodata | xargs rm -f
