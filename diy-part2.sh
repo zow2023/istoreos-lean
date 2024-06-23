@@ -17,6 +17,7 @@
 #git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall/luci
 
 #rm -rf feeds/packages/net/adguardhome
+git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luic-app-adguardhome
 
 #git clone https://github.com/fw876/helloworld.git -b master package/helloworld
 
